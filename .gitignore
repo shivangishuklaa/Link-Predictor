@@ -1,0 +1,57 @@
+# ─────────────────────────────────────────────────────────────
+# Link Prediction Project — .gitignore
+# ─────────────────────────────────────────────────────────────
+
+# Large data files
+
+data/
+*.csv
+*.pkl
+*.pickle
+
+# Trained models
+models/
+*.joblib
+*.h5
+*.pt
+*.pth
+
+#  Jupyter artifacts
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+#  Python artifacts
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+#  Virtual environments 
+
+venv311/
+env/
+.env
+.venv/
+ENV/
+
+# OS files 
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editors 
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#  Logs & outputs 
+logs/
+*.log
+outputs/
