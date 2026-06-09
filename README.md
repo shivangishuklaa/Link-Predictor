@@ -19,6 +19,9 @@ Negative edges are sampled randomly with `random.seed(42)` to guarantee exact 50
 
 ## 🚀 Live Demo
 
+[link-predictor.streamlit.app](https://link-predictor-xcyhmdkyxnqq9cs5javwxs.streamlit.app/)
+
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
