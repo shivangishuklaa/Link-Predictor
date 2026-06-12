@@ -2,7 +2,7 @@
 
 Predicting whether a directed edge **(u → v)** will form between two nodes in a large-scale social network, using graph topology features and an ensemble of machine learning classifiers.
 
-**🌐 Live App → [link-predictor-xcyhmdkyxnqq9cs5javwxs.streamlit.app](https://link-predictor-xcyhmdkyxnqq9cs5javwxs.streamlit.app/)**
+
 
 ---
 
