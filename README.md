@@ -2,9 +2,15 @@
 
 Predicting whether a directed edge **(u → v)** will form between two nodes in a large-scale social network, using graph topology features and an ensemble of machine learning classifiers.
 
+**🌐 Live App → [link-predictor-xcyhmdkyxnqq9cs5javwxs.streamlit.app](https://link-predictor-xcyhmdkyxnqq9cs5javwxs.streamlit.app/)**
+
 ---
 
 ## 📊 Dataset
+
+**Source:** [Facebook Recruiting Competition — Kaggle](https://www.kaggle.com/c/FacebookRecruiting)
+
+> Download `train.csv` from the competition page and place it at `data/train.csv`. The file contains two columns — `source_node` and `destination_node` — representing a directed follower/following graph.
 
 | Stat | Value |
 |------|-------|
@@ -18,6 +24,10 @@ Negative edges are sampled randomly with `random.seed(42)` to guarantee exact 50
 ---
 
 ## 🚀 Live Demo
+
+**Deployed app:** [https://link-predictor-xcyhmdkyxnqq9cs5javwxs.streamlit.app/](https://link-predictor-xcyhmdkyxnqq9cs5javwxs.streamlit.app/)
+
+Or run locally:
 
 ```bash
 pip install -r requirements.txt
